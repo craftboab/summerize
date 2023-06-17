@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 import streamlit as st
-from streamlit_chat import message
 from langchain import OpenAI
 
 from langchain.chains import AnalyzeDocumentChain
